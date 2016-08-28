@@ -421,9 +421,9 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 
 # limit dex2oat threads to improve thermals
 PRODUCT_PROPERTY_OVERRIDES += \
-    dalvik.vm.boot-dex2oat-threads=4 \
-    dalvik.vm.dex2oat-threads=4 \
-    dalvik.vm.image-dex2oat-threads=4
+    dalvik.vm.boot-dex2oat-threads=8 \
+    dalvik.vm.dex2oat-threads=8 \
+    dalvik.vm.image-dex2oat-threads=8
 
 # Disable Camera TNR
 PRODUCT_PROPERTY_OVERRIDES += \
