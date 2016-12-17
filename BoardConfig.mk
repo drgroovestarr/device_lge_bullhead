@@ -147,6 +147,9 @@ BOARD_QTI_CAMERA_32BIT_ONLY := true
 #NFC
 NXP_CHIP_TYPE := 2
 
+# PDFIUM
+TARGET_NEEDS_PDFIUM_BIGINT := true
+
 #Enable peripheral manager
 TARGET_PER_MGR_ENABLED := true
 
