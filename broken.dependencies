@@ -1,0 +1,14 @@
+[
+  {
+    "remote": "github",
+    "repository": "Flash-Kernel/bullhead",
+    "target_path": "kernel/huawei/angler",
+    "branch":      "release-7.1.1"
+  },
+  {
+    "remote": "github",
+    "repository": "drgroovestarr/vendor_lge",
+    "target_path": "vendor/lge",
+    "branch":      "n7.1.1"
+  }
+]
